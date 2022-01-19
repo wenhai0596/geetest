@@ -5,7 +5,7 @@ geetest 分析学习记录
 gt challenge
 
 取challenge
-2.
+/r/n2.
 https://api.geetest.com/get.php?gt= &challenge= &lang=zh-cn&pt=0&client_type=web&w= &callback=geetest_1642585519302
 
 w = i + r
