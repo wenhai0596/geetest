@@ -12,51 +12,7 @@ gt challenge
 2.  
 https://api.geetest.com/get.php?gt= &challenge= &lang=zh-cn&pt=0&client_type=web&w= &callback=  
 返回
-({
-    "status": "success",
-    "data": {
-        "theme": "wind",
-        "theme_version": "1.5.8",
-        "static_servers": [
-            "static.geetest.com",
-            "dn-staticdown.qbox.me"
-        ],
-        "api_server": "api.geetest.com",
-        "logo": false,
-        "feedback": "",
-        "c": [
-            12,
-            58,
-            98,
-            36,
-            43,
-            95,
-            62,
-            15,
-            12
-        ],
-        "s": "4c436f69",
-        "i18n_labels": {
-            "copyright": "由极验提供技术支持",
-            "error": "网络不给力",
-            "error_content": "请点击此处重试",
-            "error_title": "网络超时",
-            "fullpage": "智能检测中",
-            "goto_cancel": "取消",
-            "goto_confirm": "前往",
-            "goto_homepage": "是否前往验证服务Geetest官网",
-            "loading_content": "智能验证检测中",
-            "next": "正在加载验证",
-            "next_ready": "请完成验证",
-            "read_reversed": false,
-            "ready": "点击按钮进行验证",
-            "refresh_page": "页面出现错误啦！要继续操作，请刷新此页面",
-            "reset": "请点击重试",
-            "success": "验证成功",
-            "success_title": "通过验证"
-        }
-    }
-})
+
 w = i + r  
 
 i = 魔改base64编码 aes加密后的内容  
