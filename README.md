@@ -1,5 +1,5 @@
 # geetest
-geetest 分析学习记录
+geetest 分析学习记录  
 大致方向就是本地端随机生成aes的key,  然后用key对内容进行加密后编码, 然后用rsa公钥对aes_key加密,  
 最后把aes加密编码后的内容和rsa加密后的key一并传给服务器  
 1.
