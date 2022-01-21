@@ -9,8 +9,8 @@ public function getbase64chars($e=''){
         
 public function strsplit($e, $t) {
             $n = 0;
-            for ( $r = 24 - 1; 0 <= $r; $r--) {
-                1 === ($t >> $r & 1) && ($n = ($n << 1) + ($e >> $r & 1));
+            for ( $r = 23; 0 <= $r; $r--) {
+                ($t >> $r & 1)===1 && ($n = ($n << 1) + ($e >> $r & 1));
             }
             return $n;
         }
